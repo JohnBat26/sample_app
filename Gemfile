@@ -53,6 +53,7 @@ gem 'ruby-debug-base19', '0.11.26', :path => "~/.rvm/gems/ruby-1.9.3-p0@rails3tu
 gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :production do
-  gem 'pg', '0.12.2'
+  #gem 'pg', '0.12.2'
+  gem 'sqlite3', '1.3.5'
 end
 
