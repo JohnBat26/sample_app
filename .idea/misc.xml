@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="CompilerAPISettings">
-    <option name="MAXIMUM_HEAP_SIZE" value="256" />
-  </component>
   <component name="IdProvider" IDEtalkID="454E93FB07C6FC96E4080F87DC39C918" />
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" />
@@ -25,26 +22,10 @@
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
   </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Abstraction issues</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
-  </component>
   <component name="ProjectResources">
-    <default-html-doctype>http://www.w3.org/1999/xhtml</default-html-doctype>
+    <default-html-doctype>$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5.rnc</default-html-doctype>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="RVM: ruby-1.9.3-p0 [rails3tutorial2ndEd]" project-jdk-type="RUBY_SDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_5" assert-keyword="true" jdk-15="true" project-jdk-name="RVM: ruby-1.9.3-p0-perf [rails3tutorial2ndEd]" project-jdk-type="RUBY_SDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="WebServicesPlugin" addRequiredLibraries="true" />

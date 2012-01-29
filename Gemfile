@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.0'
+gem 'rails', '3.2.1'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -14,20 +14,20 @@ end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails', '3.2.3'
-  gem 'coffee-rails', '3.2.1'
+  gem 'sass-rails'
+  gem 'coffee-rails'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer'
 
-  gem 'uglifier', '1.0.3'
+  gem 'uglifier'
 end
 
-gem 'jquery-rails', '2.0.0'
+gem 'jquery-rails'
 gem 'execjs'
 
 group :test do
-  gem 'capybara', '1.1.2'
+  gem 'capybara'
 end
 
 # To use ActiveModel has_secure_password
@@ -53,6 +53,7 @@ gem 'ruby-debug-base19', '0.11.26', :path => "~/.rvm/gems/ruby-1.9.3-p0@rails3tu
 gem 'ruby-debug19', :require => 'ruby-debug'
 
 group :production do
-  gem 'pg', '0.12.2'
+  #gem 'pg', '0.12.2'
+  gem 'sqlite3', '1.3.5'
 end
 
