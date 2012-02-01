@@ -5,10 +5,12 @@ gem 'rails', '3.2.1'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
+gem 'gravatar_image_tag'
+
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'annotate', '~> 2.4.1.beta'
-  gem 'rspec-rails', '2.8.1'
+  gem 'rspec-rails'
   gem 'spork'
 end
 
@@ -29,6 +31,7 @@ gem 'execjs'
 
 group :test do
   gem 'capybara'
+  gem "factory_girl_rails", "~> 1.2"
 end
 
 # To use ActiveModel has_secure_password
