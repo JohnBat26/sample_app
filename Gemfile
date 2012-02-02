@@ -6,12 +6,15 @@ gem 'rails', '3.2.1'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'gravatar_image_tag'
+gem 'rails_best_practices'
+
 
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'annotate', '~> 2.4.1.beta'
   gem 'rspec-rails'
   gem 'spork'
+  gem 'simplecov', :require => false, :group => :test
 end
 
 # Gems used only for assets and not required
