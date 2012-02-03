@@ -2,7 +2,6 @@ require 'spec_helper'
 
 describe "Users" do
 
-=begin
   describe "signup" do
 
     describe "failure" do
@@ -14,10 +13,9 @@ describe "Users" do
         fill_in "Password", :with => ""
         fill_in "Confirmation", :with => ""
         click_button "Sign up"
-        response.should render_template('users/new')
-        response.should have_selector("div#error_explanation")
+        #page.should render_template('users/new')
+        page.should have_selector("div#error_explanation")
       end
     end
   end
-=end
 end
