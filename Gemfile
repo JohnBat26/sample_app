@@ -28,6 +28,7 @@ group :assets do
 end
 
 gem 'jquery-rails', '2.0.0'
+gem 'anjlab-bootstrap-rails', '>= 2.0', :require => 'bootstrap-rails'
 gem 'execjs'
 
 group :test do
