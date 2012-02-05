@@ -12,29 +12,29 @@ gem 'rails_best_practices'
 group :development, :test do
   gem 'sqlite3', '1.3.5'
   gem 'annotate', '~> 2.4.1.beta'
-  gem 'rspec-rails'
-  gem 'spork'
+  gem 'rspec-rails', '2.8.1'
+  gem 'spork', '~> 0.9.0.rc'
   gem 'simplecov', :require => false, :group => :test
 end
 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
-  gem 'sass-rails'
-  gem 'coffee-rails'
-
+  gem 'sass-rails', '3.2.3'
+  gem 'coffee-rails', '3.2.2'
+  gem 'uglifier', '1.0.3'
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   gem 'therubyracer'
-
-  gem 'uglifier'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '2.0.0'
 gem 'execjs'
 
 group :test do
-  gem 'capybara'
+  gem 'capybara', '1.1.2'
   gem "factory_girl_rails", "~> 1.2"
+  gem 'cucumber-rails', '1.2.1'
+  gem 'database_cleaner', '0.7.1'
 end
 
 # To use ActiveModel has_secure_password
